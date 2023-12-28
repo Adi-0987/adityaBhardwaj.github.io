@@ -1,0 +1,184 @@
+.hr{
+    width: 124px;
+    border-width: 2px;
+    border-color: #E10081;
+    position: absolute;
+    left: 0px;
+    bottom: -253rem;
+}
+.h2{
+    font-family: arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 35px;
+    position: absolute;
+    left: 120px;
+    bottom: -255.5rem;
+}
+.container{
+    width: 5rem;
+    height: 20rem;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -275rem;
+    left: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.links svg{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    fill: #00768D;
+    transition: fill 0.3s ease;
+
+}
+.links:hover svg{
+    fill: #00AFD1;
+}
+.bottom-bar {
+    position: absolute;
+    bottom: -280rem;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Adjust the height as needed */
+    background-color: #004363; /* Adjust the background color */
+    color: #00AFD1; /* Adjust the text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+}
+.name-container span {
+    font-size: 15px; /* Adjust the font size as needed */
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.contact-text{
+    position: absolute;
+    left: 12rem;
+    bottom: -273rem;
+    font-family: Arial;
+    font-size: 56px;
+    background-color: transparent;
+    width: 30rem;
+    line-height: 1.5;
+}
+/* .demo-btn-left {
+    position: absolute;
+    left: 14rem;
+    bottom: -274rem;
+    height: 4rem;
+    width: 12rem;
+    border-radius: 48px;
+    border: none;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    overflow: hidden;
+    background: linear-gradient(75deg, #00AFD1, #E10081);
+    background-size: 200% 200%;
+    transition: background-position 0.5s ease;
+    animation: gradientAnimation 5s infinite;
+}
+.demo-btn-left:hover{
+    cursor: pointer;
+}
+@keyframes gradientAnimation {
+    0%,100% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+} */
+.form-container {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    position: absolute;
+    bottom: -274rem;
+    right: 18rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 35rem;
+    border-radius: 10px;
+}
+
+.contact-form {
+    background-color: transparent;
+    border-radius: 8px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    width: 35rem;
+    display: f;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #00AFD1;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2px solid #00AFD1;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* Display name and email side by side */
+.form-group .name-email {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group .name-email input {
+    flex: 1;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    height: 3rem;
+    width: 8rem;
+    border-radius: 48px;
+    border: none;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    overflow: hidden;
+    background: linear-gradient(75deg, #00AFD1, #E10081);
+    background-size: 200% 200%;
+    transition: background-position 0.5s ease;
+    animation: gradientAnimation 5s infinite;
+}
+
+@keyframes gradientAnimation {
+    0%,100% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+}

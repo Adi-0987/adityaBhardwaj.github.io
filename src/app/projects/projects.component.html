@@ -1,0 +1,144 @@
+<div class="container">
+    <span class="my-text">My </span><span class="education-text">Projects</span>
+</div>
+
+<div class="button-container">
+    <button (click)="showContent('accessHealth')" class="button" [ngClass]="{ 'default-focus': selectedContent === 'accessHealth' }">ACCESS Health Projects</button>
+    <button (click)="showContent('pharmIT')" class="button" [ngClass]="{ 'default-focus': selectedContent === 'pharmIT' }">Pharm-IT Project</button>
+    <button (click)="showContent('newGen')" class="button" [ngClass]="{ 'default-focus': selectedContent === 'newGen' }">NewGen IEDC Projects</button>
+    <button (click)="showContent('articles')" class="button" [ngClass]="{ 'default-focus': selectedContent === 'articles' }">Published Articles</button>
+</div>
+
+<div [ngSwitch]="selectedContent" class="text-container">
+            <div *ngSwitchCase="'accessHealth'">
+        <!-- Personal Details Content -->
+            <div class="project-container">
+                <div class="left-line"></div>
+                <img src="/assets/data analysis.jpeg" alt="" class="left-image">
+                <div>
+                    <h2 class="heading-text-left">ABDM Data Analysis for DHIS and Scan & Share Initiative</h2>
+                    <h3 class="durationtext-left">June ‘23 - December ’23</h3>
+                    <div class="skill-maincontainer">
+                        <div class="skill-container-left">Tableau</div>
+                        <div class="skill-container-left">MS-Excel</div>
+                        <div class="skill-container-left">Data Analytics</div>
+                        <div class="skill-container-left">ETL</div>
+                    </div>
+                    <p class="paragraph-left">During my ACCESS Health International internship, I led the ABDM Data Analysis project for DHIS and Scan & Share. I cleaned and transformed public dashboard data in Excel, using Tableau for insightful visualization. The visuals offered key insights for the team and supported our partnership with the National Health Authority. Additionally, check out a demo showcasing my data analysis and visualization skills on a superstore dataset.</p>
+                </div>
+                <a href="/assets/ACCESS1.mp4" target="_blank">
+                    <button type="button" class="demo-btn-right">View Demo</button>
+                  </a>
+            </div>
+            <div class="project-container" >
+                <div class="right-line"></div>
+                <img src="/assets/payment portal.jpeg" alt="" class="right-image">
+                <div>
+                    <h2 class="heading-text">Payment Portal Prototype Development</h2>
+                    <h3 class="durationtext">June ‘23 - December ’23</h3>
+                    <div class="skill-maincontainer">
+                        <div class="skill-container">Node.JS</div>
+                        <div class="skill-container">Angular.JS</div>
+                        <div class="skill-container">Web Development</div>
+                        <div class="skill-container">MySQL</div>
+                    </div>
+                    <p class="paragraph">During my internship, I embarked on a project to develop a payment portal prototype, aiming to learn Node.js and Angular.js for full-stack web development. Through this hands-on experience, I gained proficiency in both technologies and successfully crafted a functional prototype. I invite you to explore the project further by watching the demo video, showcasing the application's features and my skills in full-stack development using Node.js and Angular.js.</p>
+                </div>
+                <a href="/assets/paymentPortal.mp4" target="_blank">
+                    <button type="button" class="demo-btn-left">View Demo</button>
+                </a>
+            </div>
+        </div>
+        <div *ngSwitchCase="'pharmIT'">
+            <div class="project-container">
+                <div class="left-line"></div>
+                <img src="/assets/chatgpt.jpeg" alt="" class="left-image">
+                <div>
+                    <h2 class="heading-text-left">Chat-GPT API Integration to PharmIT Product</h2>
+                    <h3 class="durationtext-left">April ‘23 - June ’23</h3>
+                    <div class="skill-maincontainer">
+                        <div class="skill-container-left">Chat-GPT</div>
+                        <div class="skill-container-left">Python</div>
+                        <div class="skill-container-left">MySQL</div>
+                        <div class="skill-container-left">Web Development</div>
+                    </div>
+                    <p class="paragraph-left">I undertook a project focused on integrating ChatGPT API into a prototype for searching queries related to the data. Leveraging Python for the backend logic, I devised a system where the query string is passed to the ChatGPT API, which then translates it into an SQL query. The model executes this query on the SQL database, receives the response, and presents it in the form of a table array on the frontend. I invite you to witness the functionality through a demo image, showcasing the seamless integration of ChatGPT for efficient and intuitive data querying.</p>
+                </div>
+                <a href="/assets/pharmit.jpg" target="_blank">
+                    <button type="button" class="demo-btn-right">View Demo</button>
+                </a>
+            </div>
+        </div>
+        <div *ngSwitchCase="'newGen'">
+        <!-- Interests Content -->
+        <div class="project-container">
+            <div class="left-line"></div>
+            <img src="/assets/IEDC1.jpeg" alt="" class="left-image">
+            <div>
+                <h2 class="heading-text-left"> Multipurpose Adjustable Sample Collection Trolley</h2>
+                <h3 class="durationtext-left">January ‘23 - June ’23</h3>
+                <div class="skill-maincontainer">
+                    <div class="skill-container-left">Critical Thinking</div>
+                    <div class="skill-container-left">MS-Office</div>
+                    <div class="skill-container-left">Business Idea</div>
+                    <div class="skill-container-left">Entrepreneurship</div>
+                </div>
+                <p class="paragraph-left">To address the issue of infection control in hospitals, we are developing an in-built light therapy solution for infection prevention. The solution includes designated sample holders, plug-and-play drawers, and a digital and QR-code tracking system for tracking samples from various hospital wards. The tray is designed with 360-degree rotation and detachable options for emergency situations, and it can accommodate all types of sample holders.</p>
+            </div>
+            <button type="button" class="demo-btn-right" onclick="window.open('https://newgeniedc.chitkara.edu.in/project/multipurpose-adjustable-sample-collection-trolley-infection-prevention/', '_blank')">Visit Website </button>
+        </div>
+        <div class="project-container">
+            <div class="right-line"></div>
+            <img src="/assets/IEDC2.jpeg" alt="" class="right-image">
+            <div>
+                <h2 class="heading-text">Perineal Retractor for Episiotomy during Vaginal Delivery</h2>
+                <h3 class="durationtext">January ‘23 - June ’23</h3>
+                <div class="skill-maincontainer1">
+                    <div class="skill-container">Critical Thinking</div>
+                    <div class="skill-container">MS-Office</div>
+                    <div class="skill-container">Business Idea</div>
+                    <div class="skill-container">Entrepreneurship</div>
+                </div>
+                <p class="paragraph">This is a surgical instrument that helps to guide the incision made during an episiotomy at a specific angle, in turn reducing the risk of vaginal tears. Injuries related to vaginal childbirth are something that is not talked about openly in Indian society. Up to 9 in every 10 first-time mothers who have a vaginal birth will experience some sort of tear, graze, or episiotomy. These tears range from mild to severe and, in some cases, lead to pelvic floor incontinence.</p>
+            </div>
+            <button type="button" class="demo-btn-left" onclick="window.open('https://newgeniedc.chitkara.edu.in/project/perineal-retractor-for-safe-and-accurate-episiotomy-during-vaginal-delivery/', '_blank')">Visit Website </button>
+        </div>
+        </div>
+        <div *ngSwitchCase="'articles'">
+            <div class="project-container">
+                <div class="left-line"></div>
+                <img src="/assets/MAO.jpeg" alt="" class="left-image">
+                <div>
+                    <h2 class="heading-text-left">Natural Products as Monoamine Oxidase Inhibitors</h2>
+                    <h3 class="durationtext-left">January ‘22 - May ’22</h3>
+                    <div class="skill-maincontainer">
+                        <div class="skill-container-left">Secondary Reasech</div>
+                        <div class="skill-container-left">Documentation</div>
+                        <div class="skill-container-left">Med-Darw</div>
+                        <div class="skill-container-left">Mandalay</div>
+                    </div>
+                    <p class="paragraph-left">The study of phytochemicals and plant extracts used as a traditional source of medication revealed that they possess vast potential for monoamine oxidase inhibition. The purpose of this review is to highlight the potential of plant extracts and their chemicals to inhibit monoamine oxidase enzymes. This communication mentions a number of potential plant species and phytoconstituents as monoamine oxidase inhibitors which can be further developed for the treatment of various neurological disorders.</p>
+                </div>
+                <button type="button" class="demo-btn-right" onclick="window.open('https://pubmed.ncbi.nlm.nih.gov/37165491/', '_blank')">View Article </button>
+            </div>
+            <div class="project-container">
+                <div class="right-line"></div>
+                <img src="/assets/chagasD.jpeg" alt="" class="right-image">
+                <div>
+                    <h2 class="heading-text">Potential Candidates for the Treatment of Chagas Disease</h2>
+                    <h3 class="durationtext">January ‘22 - May ’22</h3>
+                    <div class="skill-maincontainer1">
+                        <div class="skill-container">Secondary Reasech</div>
+                        <div class="skill-container">Documentation</div>
+                        <div class="skill-container">Med-Darw</div>
+                        <div class="skill-container">Mandalay</div>
+                    </div>
+                    <p class="paragraph">Certain target-based drugs that target specific biochemical processes of the causative parasites have been described as potential antichagasic agents that possesses various types of heterocyclic scaffolds. These flexible molecules have a wide range of biological actions, and various synthesized compounds with strong activity have been documented. This review aims to discuss the available literature on synthetic anti-T. cruzi drugs that will give a food for thought to medicinal chemists thriving to design and develop such drugs.</p>
+                </div>
+                <button type="button" class="demo-btn-left" onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1111/cbdd.14257', '_blank')">View Article </button>
+            </div>
+        </div>
+        <div *ngSwitchDefault>
+
+        </div>
+</div>

@@ -1,0 +1,147 @@
+.color-container{
+    position: absolute;
+    background-color: #002435; /* Home component background color */
+    height: 700px;
+    width: 100%; /* Use 100% width to make it full-width */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.hello-text{
+    background-color: #002435;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffffff;
+    position: relative;
+    left: 66px;
+    top: 195px;
+}
+.dot-text{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color: #E10081;
+    position: relative;
+    left: 66px;
+    top: 195px;
+}
+.hr{
+    width: 124px;
+    border-width: 2px;
+    border-color: #E10081;
+    position: absolute;
+    left: 0px;
+    top: 304px;
+}
+.h2{
+    font-family: arial;
+    font-style: italic;
+    font-size: 40px;
+    position: relative;
+    left: 120px;
+    top: 168px;
+}
+.static{
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 60px;
+    color: #ffffff;
+    position: flex;
+    left: 66px;
+    top: 150px;
+}
+.dynamicText{
+    display: flex;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color: #E10081;
+    position: relative;
+    left: 66px;
+    top: 150px;
+}
+.button{
+    border-radius: 48px;
+    background-color: #004363;
+    border: none;
+    color: white;
+    padding: 25px 46px;
+    text-align: center;
+    font-family: arial;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    left: 66px;
+    top: 180px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.button:hover{
+    background-color: #00768D;
+
+}
+.button2{
+    display: flex;
+    border-radius: 48px;
+    background-color: transparent;
+    border-color: #004363;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    padding: 25px 46px;
+    text-align: center;
+    font-family: arial;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    left: 80px;
+    top: 180px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.button2:hover{
+    background-color: #004363;
+}
+
+.pic-container {
+    position: absolute;
+    width: 70%; /* Set the width of the container */
+    max-width: 720px; /* Set a maximum width */
+    height: 600px; /* Adjust the height based on content */
+    top: 5%;
+    left: 46%;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  
+.mypic {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Make the image responsive */
+}
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Adjust the height as needed */
+    background-color: #004363; /* Adjust the background color */
+    color: #002435; /* Adjust the text color */
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+}
+.name-container span {
+    font-size: 28px; /* Adjust the font size as needed */
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+

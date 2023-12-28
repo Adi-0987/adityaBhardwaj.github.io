@@ -1,0 +1,178 @@
+.container{
+    width: fit-content;
+    height: 100px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -650px;
+    left: 8rem;
+
+}
+.links svg{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    fill: #00768D;
+    transition: fill 0.3s ease;
+    justify-content: space-around;
+}
+.links:hover svg{
+    fill: #00AFD1;
+}
+.pic-container {
+    position: absolute;
+    width: 70%; /* Set the width of the container */
+    max-width: 680px; /* Set a maximum width */
+    height: 500px; /* Adjust the height based on content */
+    bottom: -38rem;
+    left: 0;
+}
+.mypic {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%; /* Make the image responsive */
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    position: absolute;
+    bottom: -250px;
+    left: 42%;
+}
+.button{
+    border-radius: 48px;
+    background-color: #004363;
+    border: none;
+    color: white;
+    padding: 25px 46px;
+    text-align: center;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    width: 30%;
+    overflow: hidden;
+    
+}
+.button:hover{
+    background-color: #00768D;
+}
+.default-focus {
+    background-color: #00768D;
+    background-image: linear-gradient(75deg, #00AFD1,#E10081);
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color: #00AFD1;
+    border-radius: 0 0 48px 48px;
+    transition: width 0.3s;
+}
+
+.button:hover::after {
+    width: 100%;
+}
+.aboutme-container{
+    position: absolute;
+    bottom: -170px;
+    left: 43.5%;
+}
+.about-text{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffffff;
+    position: relative;
+}
+.me-text{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color: #E10081;
+    position: relative;
+}
+.text-container{
+    position: absolute;
+    bottom: -525px;
+    left: 43%;
+    width: 100vh;
+    height: 36vh;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2%;
+}
+  
+li {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+li svg {
+    height: 40px;
+    width: auto;
+    fill: #00AFD1;
+    margin-right: 10px; /* Adjust the margin as needed */
+    vertical-align: middle; /* Align the text vertically with the SVG icon */
+  }
+.warp{
+    word-wrap: break-word;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+section {
+    padding: 0;
+    margin: 2%;
+    columns: 2;
+    display: inline-block;
+    column-rule: 20px;
+}
+section h2{
+    font-family: arial;
+    font-weight: bold;
+    margin: 2px;
+    font-size: 20px;
+}  
+section h3{
+    font-family: arial;
+    font-weight: normal;
+    margin: 2px;
+    font-size: 16px;
+}
+section h4{
+    font-family: arial;
+    font-weight: normal;
+    font-style: italic;
+    margin: 2px;
+}
+div svg {
+    height: 40px;
+    width: auto;
+    fill: #00AFD1;
+    margin-right: 10px; /* Adjust the margin as needed */
+    vertical-align: middle; /* Align the text vertically with the SVG icon */
+}
+.interests-list {
+    columns: 3;
+    display: inline-block;
+}
+
