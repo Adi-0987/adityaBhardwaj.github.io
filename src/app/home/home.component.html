@@ -3,9 +3,11 @@
     <span class="dot-text">.</span>
     <hr class="hr">
     <p class="h2">I'm Aditya</p>
-    <ngx-typed-js [strings]="['Professional', 'Analyst']" [loop]="true" [backSpeed]="30" [backDelay]="1500" [typeSpeed]="100" class="dynamicText">
-        <span class="static">Healthcare </span><span class="typing"></span>
-    </ngx-typed-js>
+    <ng-container *ngIf="isBrowser">
+        <ngx-typed-js [strings]="['Professional', 'Analyst']" [loop]="true" [backSpeed]="30" [backDelay]="1500" [typeSpeed]="100" class="dynamicText">
+          <span class="static">Healthcare </span><span class="typing"></span>
+        </ngx-typed-js>
+      </ng-container>
 
     <nav>
         <div class="bottom-bar">
